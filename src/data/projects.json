@@ -1,0 +1,18 @@
+[{
+    "projectName": "Test",
+    "projectImage": "lol",
+    "projectDescription": "lorem rroijoiej",
+    "projectTechStack" : ["React", "JS", "CSS"],
+    "projectGithub": "link",
+    "projectDemo": "llink"
+
+},
+
+{    "projectName": "Test 2 demo",
+"projectImage": "lol",
+"projectDescription": "lorem rroijoiej",
+"projectTechStack" : ["React", "JS", "CSS"],
+"projectGithub": "link",
+"projectDemo": "llink"
+}
+]
