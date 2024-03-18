@@ -1,6 +1,6 @@
 [{
     "projectName": "Test",
-    "projectImage": "lol",
+    "projectImage": "https://i.pinimg.com/736x/78/e5/39/78e5398778efa63068b686d212be4150.jpg",
     "projectDescription": "lorem rroijoiej",
     "projectTechStack" : ["React", "JS", "CSS"],
     "projectGithub": "link",
@@ -9,7 +9,24 @@
 },
 
 {    "projectName": "Test 2 demo",
-"projectImage": "lol",
+"projectImage": "https://i.pinimg.com/736x/78/e5/39/78e5398778efa63068b686d212be4150.jpg",
+"projectDescription": "lorem rroijoiej",
+"projectTechStack" : ["React", "JS", "CSS"],
+"projectGithub": "link",
+"projectDemo": "llink"
+},
+
+{    "projectName": "Test 2 demo",
+"projectImage": "https://i.pinimg.com/736x/78/e5/39/78e5398778efa63068b686d212be4150.jpg",
+"projectDescription": "lorem rroijoiej",
+"projectTechStack" : ["React", "JS", "CSS"],
+"projectGithub": "link",
+"projectDemo": "llink"
+}
+,
+
+{    "projectName": "Test 2 demo",
+"projectImage": "https://i.pinimg.com/736x/78/e5/39/78e5398778efa63068b686d212be4150.jpg",
 "projectDescription": "lorem rroijoiej",
 "projectTechStack" : ["React", "JS", "CSS"],
 "projectGithub": "link",

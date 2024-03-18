@@ -41,12 +41,12 @@ function App() {
         </div>
       </section>
 
-      <section className="text-center py-4">
-        <h2 className="text-2xl">Projects</h2>
+      <section className="text-center py-4 flex flex-wrap justify-center gap-5">
+        {/* <h2 className="text-2xl">Projects</h2> */}
 
         {projects.map((project) => {
           return (
-            <div className="text-center shadow-lg p-10 rounded-xl border-gray-900	">
+            <div className="text-center shadow-lg p-10 rounded-xl border-gray-900 min-w-96">
               <img
                 src={project.projectImage}
                 width={100}
