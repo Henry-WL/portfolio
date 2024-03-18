@@ -2,22 +2,31 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import projects from "./data/projects.json";
+import { useState } from "react";
 
 function App() {
+  const [dark, setDark] = useState(true)
+
+  const darkToggle = () => {
+    console.log(dark)
+    setDark(!dark)
+  }
+
   return (
-    <main className="bg-white px-10">
+    <div className={`${dark && 'dark'}`}>
+    <main className="dark:bg-black">
       <section>
         <nav className="py-10 mb-12 flex justify-around">
-          <h1 className="text-3xl">Henry</h1>
+          <h1 className="text-3xl dark:text-white">Henry</h1>
           <ul className="flex items-center space-x-4">
             <li>
-              <a href="#">About</a>
+              <a href="#" className="dark:text-white">About</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#" className="dark:text-white">Projects</a>
             </li>
-            <li onClick={() => console.log("swtich to light / dark")}>
-              <BsFillMoonStarsFill />
+            <li onClick={darkToggle}>
+              <BsFillMoonStarsFill className="dark:bg-white" />
             </li>
           </ul>
         </nav>
@@ -26,17 +35,17 @@ function App() {
       <section>
         <div className="text-center">
           <h2 className="text-blue-500 text-2xl py-2">
-            Junior Software Developer
+            Full Stack Software Engineer
           </h2>
-          <h3>
+          <h3 className="dark:text-white">
             Hello! I'm a recent graduate from the Northcoders bootcamp in
             Manchester. I've built multiple full-stack projects, take a look
             below!
           </h3>
 
           <div className="flex items-center justify-center text-2xl gap-10 py-5">
-            <BsGithub />
-            <BsLinkedin />
+            <BsGithub className="dark:bg-white"/>
+            <BsLinkedin className="dark:bg-white"/>
           </div>
         </div>
       </section>
@@ -46,7 +55,7 @@ function App() {
 
         {projects.map((project) => {
           return (
-            <div className="text-center shadow-lg p-10 rounded-xl border-gray-900 min-w-96">
+            <div className="text-center shadow-lg p-10 rounded-xl border-gray-900 min-w-96 dark:bg-slate-600">
               <div class="flex justify-center items-center"> 
               <img
                 src={project.projectImage}
@@ -83,7 +92,9 @@ function App() {
         })}
       </section>
     </main>
-  );
+
+    </div>
+     );
 }
 
 export default App;
