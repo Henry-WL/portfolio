@@ -17,7 +17,7 @@ function App() {
       <main className="dark:bg-black">
         <section>
           <nav className="py-10 mb-12 flex justify-around">
-            <h1 className="text-3xl dark:text-white">Henry</h1>
+            <h1 className="text-blue-500 text-3xl dark:text-white">Henry</h1>
             <ul className="flex items-center space-x-4">
               <li>
                 <a href="#" className="dark:text-white">
@@ -38,18 +38,23 @@ function App() {
 
         <section>
           <div className="text-center">
-            <h2 className="text-blue-500 text-2xl py-2">
+            <h2 className="text-blue-500 text-4xl py-5">
               Full Stack Software Engineer
             </h2>
-            <h3 className="dark:text-white">
+            <h3 className="text-xl dark:text-white">
               Hello! I'm a recent graduate from the Northcoders bootcamp in
               Manchester. I've built multiple full-stack projects, take a look
               below!
             </h3>
 
             <div className="flex items-center justify-center text-2xl gap-10 py-5">
-              <BsGithub className="dark:bg-white" />
-              <BsLinkedin className="dark:bg-white" />
+              <a href="https://github.com/BulletToothTony" target="_blank">
+              <BsGithub size={40} className="dark:bg-white" />
+              </a>
+
+              <a href="https://www.linkedin.com/in/henry-westhoff-lewis-b18a91196/" target="_blank">
+              <BsLinkedin size={40} className="dark:bg-white" />
+              </a>
             </div>
           </div>
         </section>
@@ -81,13 +86,13 @@ function App() {
                 })}
 
                 <div className="flex justify-center gap-10 pt-5">
-                  <div className="border-2 border-blue-500 rounded-md p-2">
+                  <div className="transition ease-in-out border-2 border-blue-500 rounded-md p-2 hover:bg-blue-500 duration-400">
                     <a href={project.projectGithub} target="_blank">
                       Github
                     </a>
                   </div>
 
-                  <div className="border-2 border-blue-500 rounded-md p-2">
+                  <div className="transition ease-in-out border-2 border-blue-500 rounded-md p-2 hover:bg-blue-500 duration-400">
                     <a href={project.projectDemo} target="_blank">
                       Demo
                     </a>
