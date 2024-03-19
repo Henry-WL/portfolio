@@ -25,12 +25,12 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#" className="dark:text-white">
+                <a href="#projects" className="dark:text-white">
                   Projects
                 </a>
               </li>
               <li onClick={darkToggle}>
-                <BsFillMoonStarsFill className="dark:bg-white" />
+                <BsFillMoonStarsFill color={`${dark ? "white" : "black"}`}/>
               </li>
             </ul>
           </nav>
@@ -49,22 +49,22 @@ function App() {
 
             <div className="flex items-center justify-center text-2xl gap-10 py-5">
               <a href="https://github.com/BulletToothTony" target="_blank">
-              <BsGithub size={40} className="dark:bg-white" />
+              <BsGithub size={40} color={`${dark ? "white" : "black"}`} />
               </a>
 
               <a href="https://www.linkedin.com/in/henry-westhoff-lewis-b18a91196/" target="_blank">
-              <BsLinkedin size={40} className="dark:bg-white" />
+              <BsLinkedin size={40} color={`${dark ? "white" : "black"}`} />
               </a>
             </div>
           </div>
         </section>
 
+        <h2 id="projects" className="text-2xl text-center pt-5">Projects</h2>
         <section className="text-center py-4 flex flex-wrap justify-center gap-5">
-          {/* <h2 className="text-2xl">Projects</h2> */}
 
           {projects.map((project) => {
             return (
-              <div className="text-center shadow-lg p-10 rounded-xl max-w-96 min-h-44 border-gray-900 min-w-96 dark:bg-slate-600">
+              <div className="text-center shadow-lg p-10 rounded-xl max-w-96 min-h-44 border-gray-900 min-w-96 dark:bg-stone-950">
                 <div class="flex justify-center items-center">
                   <img
                     src={project.projectImage}
@@ -75,25 +75,25 @@ function App() {
                   />
                 </div>
 
-                <h3 className="text-lg font-medium">{project.projectName}</h3>
+                <h3 className="text-lg font-medium dark:text-white">{project.projectName}</h3>
 
-                <p className="py-2">{project.projectDescription}</p>
+                <p className="py-2 dark:text-white">{project.projectDescription}</p>
 
                 <h4 className="py-4 text-teal-600">Tech stack</h4>
 
                 {project.projectTechStack.map((tech) => {
-                  return <p className="text-gray-800 py-1">{tech}</p>;
+                  return <p className="text-gray-800 py-1 dark:text-white">{tech}</p>;
                 })}
 
                 <div className="flex justify-center gap-10 pt-5">
                   <div className="transition ease-in-out border-2 border-blue-500 rounded-md p-2 hover:bg-blue-500 duration-400">
-                    <a href={project.projectGithub} target="_blank">
+                    <a href={project.projectGithub} target="_blank" className="dark:text-white">
                       Github
                     </a>
                   </div>
 
                   <div className="transition ease-in-out border-2 border-blue-500 rounded-md p-2 hover:bg-blue-500 duration-400">
-                    <a href={project.projectDemo} target="_blank">
+                    <a href={project.projectDemo} target="_blank" className="dark:text-white">
                       Demo
                     </a>
                   </div>
