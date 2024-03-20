@@ -59,7 +59,7 @@ function App() {
           </div>
         </section>
 
-        <h2 id="projects" className="text-2xl text-center pt-5">Projects</h2>
+        <h2 id="projects" className="text-2xl text-center pt-5 dark:text-white">Projects</h2>
         <section className="text-center py-4 flex flex-wrap justify-center gap-5">
 
           {projects.map((project) => {
