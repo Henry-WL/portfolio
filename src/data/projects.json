@@ -1,7 +1,7 @@
 [
   {
     "projectName": "NC-News Frontend",
-    "projectImage": "src/data/images/fe-ss.png",
+    "projectImage": "images/fe-ss.png",
     "projectDescription": "This project is the frontend of my news website. Allowing users to login, fetch articles, vote, comment and filter comments or articles",
     "projectTechStack": ["React", "JS", "CSS"],
     "projectGithub": "https://github.com/BulletToothTony/nc-news?tab=readme-ov-file",
@@ -10,7 +10,7 @@
 
   {
     "projectName": "NC-news Backend",
-    "projectImage": "src/data/images/be-ss.png",
+    "projectImage": "images/be-ss.png",
     "projectDescription": "This project hosts the REST API allowing the user to make their requests which will submit the changes to the database, Jest was used for TDD",
     "projectTechStack": ["Node", "Express", "Jest"],
     "projectGithub": "https://github.com/BulletToothTony/be-nc-news",
@@ -19,7 +19,7 @@
 
   {
     "projectName": "Readcycle",
-    "projectImage": "src/data/images/rc-ss.png",
+    "projectImage": "images/rc-ss.png",
     "projectDescription": "A full stack mobile application allowing users to recycle their unused books within their local community! Featuring live map locations, book search, live chat and more!",
     "projectTechStack": ["React Native", "Firebase", "CSS"],
     "projectGithub": "https://github.com/BilboOGX/HappyPathsProject",
