@@ -24,7 +24,7 @@ function App() {
     setDark(!dark);
   };
 
-  const svgSizeSkills = 30
+  const svgSizeSkills = 50
 
   return (
     <div className={`${dark && "dark"}`}>
@@ -86,92 +86,86 @@ function App() {
             Skills
           </h2>
 
-          <div className="flex justify-center flex-wrap text-center py-2 flex gap-3">
+          <div className="flex justify-center flex-wrap text-center py-2 gap-3">
             
-            <div className="border-2 border-blue-500 rounded-md">
-            <h3 className="text-2xl">Frontend</h3>
+            <div className="border-2 border-blue-500 rounded-xl p-5">
+            <h3 className="text-2xl dark:text-white">Frontend</h3>
             <div className="flex justify-center gap-3">
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>React</span>
-                <div className="border-2 border-teal-500">
-                  <FaReact size={svgSizeSkills}/>
+                <span className="dark:text-white">React</span>
+                <div>
+                  <FaReact size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>Javascript</span>
-                <div className="border-2 border-teal-500">
-                  <IoLogoJavascript size={svgSizeSkills}/>
+                <span className="dark:text-white">Javascript</span>
+                <div>
+                  <IoLogoJavascript size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>HTML</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <TiHtml5 size={svgSizeSkills}/>
+                <span className="dark:text-white">HTML</span>
+                <div>
+                  <TiHtml5 size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>CSS</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <IoLogoCss3 size={svgSizeSkills}/>
+                <span className="dark:text-white">CSS</span>
+                <div>
+                  <IoLogoCss3 size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>Tailwind</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <SiTailwindcss size={svgSizeSkills}/>
+                <span className="dark:text-white">Tailwind</span>
+                <div>
+                  <SiTailwindcss size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
             </div>
             </div>
 
-            <div className="border-2 border-blue-500 rounded-md">
-            <h3 className="text-2xl">Backend</h3>
+            <div className="border-2 border-blue-500 rounded-xl p-5">
+            <h3 className="text-2xl dark:text-white">Backend</h3>
             <div className="flex justify-center p-2 gap-3">
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>Node</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <FaNode size={svgSizeSkills}/>
+                <span className="dark:text-white">Node</span>
+                <div>
+                  <FaNode size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>Express</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <SiExpress size={svgSizeSkills}/>
+                <span className="dark:text-white">Express</span>
+                <div>
+                  <SiExpress size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>Jest</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <SiJest size={svgSizeSkills}/>
+                <span className="dark:text-white">Jest</span>
+                <div>
+                  <SiJest size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>PSQL</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <BiLogoPostgresql size={svgSizeSkills}/>
+                <span className="dark:text-white">PSQL</span>
+                <div>
+                  <BiLogoPostgresql size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-2">
-                <span>MongoDB</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <SiMongodb size={svgSizeSkills}/>
+                <span className="dark:text-white">MongoDB</span>
+                <div>
+                  <SiMongodb size={svgSizeSkills} color={`${dark ? "white" : "black"}`}/>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-2">
-                <span>Firebase</span>
-                <div className="border-2 border-blue-500 bg-blue-300">
-                  <SiFirebase size={svgSizeSkills}/>
-                </div>
-              </div>
             </div>
             </div>
             <div className="flex justify-center"></div>
