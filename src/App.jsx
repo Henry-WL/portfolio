@@ -235,9 +235,11 @@ function App() {
           <h3 className="text-center text-3xl">Contact me</h3>
           
 
-          <div className="">
+          <div>
 
-          {/* <form name="contact" method="POST" data-netlify="true" className="flex flex-col p-5">
+          <form name="contact" method="POST" data-netlify="true" className="flex flex-col p-5">
+          <input type="hidden" name="form-name" value="contact" />
+
             <label htmlFor="">Name</label>
             <input type="text" id="name" name="name" className="border-2"/>
 
@@ -249,32 +251,7 @@ function App() {
 
 
             <button type="submit" className="border-2 p-5 hover:bg-blue-400">Submit!</button>
-          </form> */}
-
-<form name="contact" method="POST" data-netlify="true">
-<input type="hidden" name="form-name" value="contact" />
-
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
-
+          </form>
           </div>
         </section>
       </main>
