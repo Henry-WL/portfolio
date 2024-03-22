@@ -80,13 +80,13 @@ function App() {
 
         <section className="">
           <h2
-            id="projects"
+            id="Skills"
             className="text-3xl text-center pt-5 dark:text-white"
           >
             Skills
           </h2>
 
-          <div className="flex justify-center flex-wrap text-center py-2 gap-3">
+          <div className="flex justify-center content-center flex-wrap text-center py-2 gap-3">
             
             <div className="border-2 border-blue-500 rounded-xl p-5">
             <h3 className="text-2xl dark:text-white">Frontend</h3>
@@ -235,22 +235,23 @@ function App() {
           <h3 className="text-center text-3xl">Contact me</h3>
           
 
-          <div>
+          <div className="flex justify-center content-center ">
 
-          <form name="contact" method="POST" data-netlify="true" className="flex flex-col p-5">
+          <form name="contact" method="POST" data-netlify="true" className="flex flex-col w-full max-w-3xl shadow-lg p-10 rounded-xl
+border-gray-900">
           <input type="hidden" name="form-name" value="contact" />
 
             <label htmlFor="">Name</label>
-            <input type="text" id="name" name="name" className="border-2"/>
+            <input type="text" id="name" name="name" className="border-2 rounded-md"/>
 
             <label htmlFor="">Email</label>
-            <input type="text" id="email" name="email" className="border-2"/>
+            <input type="text" id="email" name="email" className="border-2 rounded-md"/>
 
             <label htmlFor="">Message</label>
-            <input type="text" id="message" name="message" className="border-2"/>
+            <input type="text" id="message" name="message" className="border-2 rounded-md"/>
 
 
-            <button type="submit" className="border-2 p-5 hover:bg-blue-400">Submit!</button>
+            <button type="submit" className="border-2 p-5 mt-2 rounded-md hover:bg-blue-400">Submit!</button>
           </form>
           </div>
         </section>
