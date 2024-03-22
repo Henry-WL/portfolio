@@ -238,20 +238,20 @@ function App() {
           <div className="flex justify-center content-center ">
 
           <form name="contact" method="POST" data-netlify="true" className="flex flex-col w-full max-w-3xl shadow-lg p-10 rounded-xl
-border-gray-900">
+border-gray-900 dark:bg-stone-950 mb-5">
           <input type="hidden" name="form-name" value="contact" />
 
-            <label htmlFor="">Name</label>
+            <label htmlFor="name" className="dark:text-white">Name:</label>
             <input type="text" id="name" name="name" className="border-2 rounded-md"/>
 
-            <label htmlFor="">Email</label>
+            <label htmlFor="email" className="dark:text-white">Email:</label>
             <input type="text" id="email" name="email" className="border-2 rounded-md"/>
 
-            <label htmlFor="">Message</label>
+            <label htmlFor="message" className="dark:text-white">Message:</label>
             <input type="text" id="message" name="message" className="border-2 rounded-md"/>
 
 
-            <button type="submit" className="border-2 p-5 mt-2 rounded-md hover:bg-blue-400">Submit!</button>
+            <button type="submit" className="border-2 p-5 mt-2 rounded-md hover:bg-blue-500 dark:text-white">Submit!</button>
           </form>
           </div>
         </section>
