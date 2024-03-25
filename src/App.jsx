@@ -237,7 +237,7 @@ function App() {
         </section>
 
         <section>
-          <h3 id="contact" className="text-center text-3xl">Contact me</h3>
+          <h3 id="contact" className="text-center text-3xl dark:text-white">Contact me</h3>
           
 
           <div className="flex justify-center content-center ">
