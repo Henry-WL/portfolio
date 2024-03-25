@@ -34,13 +34,18 @@ function App() {
             <h1 className="text-black text-3xl dark:text-white">Henry</h1>
             <ul className="flex items-center space-x-4">
               <li>
-                <a href="#" className="dark:text-white">
+                <a href="#about" className="dark:text-white">
                   About
                 </a>
               </li>
               <li>
                 <a href="#projects" className="dark:text-white">
                   Projects
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="dark:text-white">
+                  Contact
                 </a>
               </li>
               <li onClick={darkToggle}>
@@ -52,7 +57,7 @@ function App() {
 
         <section>
           <div className="text-center">
-            <h2 className="text-blue-500 text-4xl py-5">
+            <h2 id="about" className="text-blue-500 text-4xl py-5">
               Full Stack Software Engineer
             </h2>
             <h3 className="text-xl dark:text-white text-center px-10">
@@ -232,7 +237,7 @@ function App() {
         </section>
 
         <section>
-          <h3 className="text-center text-3xl">Contact me</h3>
+          <h3 id="contact" className="text-center text-3xl">Contact me</h3>
           
 
           <div className="flex justify-center content-center ">
