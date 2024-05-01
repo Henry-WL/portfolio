@@ -1,5 +1,13 @@
 [
   {
+    "projectName": "YourPlaces",
+    "projectImage": "images/yp-ss.png",
+    "projectDescription": "A full-stack MERN application allowing users to upload photos and comment on places they've visited",
+    "projectTechStack": ["MongoDB", "Express", "React", "Node"],
+    "projectGithub": "https://github.com/BulletToothTony/Places-App-Frontend",
+    "projectDemo": "https://yourplaces-gn4g.onrender.com/"
+  },
+  {
     "projectName": "NC-News Frontend",
     "projectImage": "images/fe-ss.png",
     "projectDescription": "This project is the frontend of my news website. Allowing users to login, fetch articles, vote, comment and filter comments or articles",
