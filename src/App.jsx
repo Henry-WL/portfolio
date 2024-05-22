@@ -27,11 +27,11 @@ function App() {
   const svgSizeSkills = 50
 
   return (
-    <div className={`${dark && "dark"}`}>
+    <div className={`${dark && "dark"} `}>
       <main className="dark:bg-black">
-        <section className="bg-green-600">
-          <nav className="py-10 mb-12 flex justify-around">
-            <h1 className="text-black text-3xl dark:text-white">Henry</h1>
+        <section className="">
+          <nav className="pt-10 mb-12 flex justify-around">
+            <h1 className="text-black text-2xl dark:text-white">Henry</h1>
             <ul className="flex items-center space-x-4">
               <li>
                 <a href="#about" className="dark:text-white">
@@ -53,6 +53,7 @@ function App() {
               </li>
             </ul>
           </nav>
+          <div className="px-4"><div className="w-full border-b border-black"></div></div>
         </section>
 
         <section>
@@ -60,7 +61,7 @@ function App() {
             <h2 id="about" className="text-blue-500 text-4xl py-5">
               Full Stack Software Engineer
             </h2>
-            <h3 className="text-xl dark:text-white text-center px-10">
+            <h3 className="text-xl dark:text-white text-center px-10 lg:px-20">
               Hello! I'm a recent graduate from the Northcoders bootcamp in
               Manchester. I hold a degree in Computer Forensics & Security and
               have held a job in the hospitality industry over the past couple
