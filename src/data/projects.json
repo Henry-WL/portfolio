@@ -1,5 +1,13 @@
 [
   {
+    "projectName": "ChatMe",
+    "projectImage": "images/ChatMe.png",
+    "projectDescription": "A full-stack MERN chat app allowing users to chat to each other in real time!",
+    "projectTechStack": ["MongoDB", "Express", "React", "Node"],
+    "projectGithub": "https://github.com/BulletToothTony/chat-app-frontend",
+    "projectDemo": "https://chat-me-7fz3.onrender.com/"
+  },
+  {
     "projectName": "YourPlaces",
     "projectImage": "images/yp-ss.png",
     "projectDescription": "A full-stack MERN application allowing users to upload photos and comment on places they've visited",
