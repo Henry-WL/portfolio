@@ -16,6 +16,14 @@
     "projectDemo": "https://yourplaces-gn4g.onrender.com/"
   },
   {
+    "projectName": "Readcycle",
+    "projectImage": "images/rc-ss.png",
+    "projectDescription": "A full stack mobile application allowing users to recycle their unused books within their local community! Featuring live map locations, book search, live chat and more!",
+    "projectTechStack": ["React Native", "Firebase", "CSS"],
+    "projectGithub": "https://github.com/BilboOGX/HappyPathsProject",
+    "projectDemo": "https://www.youtube.com/watch?v=YvztegUEb8o"
+  },
+  {
     "projectName": "NC-News Frontend",
     "projectImage": "images/fe-ss.png",
     "projectDescription": "This project is the frontend of my news website. Allowing users to login, fetch articles, vote, comment and filter comments or articles",
@@ -31,14 +39,5 @@
     "projectTechStack": ["Node", "Express", "Jest"],
     "projectGithub": "https://github.com/BulletToothTony/be-nc-news",
     "projectDemo": "https://be-nc-news-fz91.onrender.com/api/"
-  },
-
-  {
-    "projectName": "Readcycle",
-    "projectImage": "images/rc-ss.png",
-    "projectDescription": "A full stack mobile application allowing users to recycle their unused books within their local community! Featuring live map locations, book search, live chat and more!",
-    "projectTechStack": ["React Native", "Firebase", "CSS"],
-    "projectGithub": "https://github.com/BilboOGX/HappyPathsProject",
-    "projectDemo": "https://www.youtube.com/watch?v=YvztegUEb8o"
   }
 ]
