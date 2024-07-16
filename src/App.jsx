@@ -66,7 +66,7 @@ function App() {
               Manchester. I hold a degree in Computer Forensics & Security and
               have held a job in the hospitality industry over the past couple
               of years. I have a huge passion for technology and building
-              things, have a look at some of the project I've made below!
+              things, have a look at some of the projects I've made below!
             </h3>
 
             <div className="flex items-center justify-center text-2xl gap-10 py-5">
