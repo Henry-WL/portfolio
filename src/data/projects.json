@@ -1,5 +1,13 @@
 [
   {
+    "projectName": "betterGram",
+    "projectImage": "images/bg-ss.png",
+    "projectDescription": "A full-stack MERN clone of Instagram!",
+    "projectTechStack": ["MongoDB", "Express", "React", "Node"],
+    "projectGithub": "https://github.com/BulletToothTony/BetterGram-Frontend",
+    "projectDemo": "https://bettergram-frontend.onrender.com/"
+  },
+  {
     "projectName": "ChatMe",
     "projectImage": "images/ChatMe.png",
     "projectDescription": "A full-stack MERN chat app allowing users to chat to each other in real time!",
@@ -33,7 +41,7 @@
   },
 
   {
-    "projectName": "NC-news Backend",
+    "projectName": "NC-News Backend",
     "projectImage": "images/be-ss.png",
     "projectDescription": "This project hosts the REST API allowing the user to make their requests which will submit the changes to the database, Jest was used for TDD",
     "projectTechStack": ["Node", "Express", "Jest"],
