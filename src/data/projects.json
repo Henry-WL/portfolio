@@ -4,7 +4,7 @@
     "projectImage": "images/bg-ss.png",
     "projectDescription": "A full-stack MERN clone of Instagram!",
     "projectTechStack": ["MongoDB", "Express", "React", "Node"],
-    "projectGithub": "https://github.com/BulletToothTony/BetterGram-Frontend",
+    "projectGithub": "https://github.com/Henry-WL/BetterGram-Frontend",
     "projectDemo": "https://bettergram-frontend.onrender.com/"
   },
   {
@@ -12,7 +12,7 @@
     "projectImage": "images/ChatMe.png",
     "projectDescription": "A full-stack MERN chat app allowing users to chat to each other in real time!",
     "projectTechStack": ["MongoDB", "Express", "React", "Node"],
-    "projectGithub": "https://github.com/BulletToothTony/chat-app-frontend",
+    "projectGithub": "https://github.com/Henry-WL/chat-app-frontend",
     "projectDemo": "https://chat-me-7fz3.onrender.com/"
   },
   {
@@ -20,7 +20,7 @@
     "projectImage": "images/yp-ss.png",
     "projectDescription": "A full-stack MERN application allowing users to upload photos and comment on places they've visited",
     "projectTechStack": ["MongoDB", "Express", "React", "Node"],
-    "projectGithub": "https://github.com/BulletToothTony/Places-App-Frontend",
+    "projectGithub": "https://github.com/Henry-WL/Places-App-Frontend",
     "projectDemo": "https://yourplaces-gn4g.onrender.com/"
   },
   {
@@ -36,7 +36,7 @@
     "projectImage": "images/fe-ss.png",
     "projectDescription": "This project is the frontend of my news website. Allowing users to login, fetch articles, vote, comment and filter comments or articles",
     "projectTechStack": ["React", "JS", "CSS"],
-    "projectGithub": "https://github.com/BulletToothTony/nc-news?tab=readme-ov-file",
+    "projectGithub": "https://github.com/Henry-WL/nc-news?tab=readme-ov-file",
     "projectDemo": "https://fe-news-fe.netlify.app/"
   },
 
@@ -45,7 +45,7 @@
     "projectImage": "images/be-ss.png",
     "projectDescription": "This project hosts the REST API allowing the user to make their requests which will submit the changes to the database, Jest was used for TDD",
     "projectTechStack": ["Node", "Express", "Jest"],
-    "projectGithub": "https://github.com/BulletToothTony/be-nc-news",
+    "projectGithub": "https://github.com/Henry-WL/be-nc-news",
     "projectDemo": "https://be-nc-news-fz91.onrender.com/api/"
   }
 ]

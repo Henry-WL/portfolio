@@ -70,7 +70,7 @@ function App() {
             </h3>
 
             <div className="flex items-center justify-center text-2xl gap-10 py-5">
-              <a href="https://github.com/BulletToothTony" target="_blank">
+              <a href="https://github.com/Henry-WL" target="_blank">
                 <BsGithub size={40} color={`${dark ? "white" : "black"}`} />
               </a>
 
